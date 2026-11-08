@@ -1,0 +1,12 @@
+{
+  "name": "about-pritam",
+  "version": "1.0.0",
+  "description": "Official website of Pritam – content creator, gamer and streamer, with live-stream detection for YouTube, Twitch and Kick.",
+  "private": true,
+  "main": "server/server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node test/mock-test.js"
+  }
+}
