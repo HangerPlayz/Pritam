@@ -1,0 +1,7 @@
+{
+  "_help": "Fallback used ONLY for a platform with no API credentials. Set live to true and fill in the real title, thumbnail URL and stream URL when going live; set it back to false afterwards. Leave a platform out entirely if you do not want to manage it manually. 'youtube' is the first YouTube channel, 'youtube2' the second. embedId = YouTube video id / Twitch channel / Kick slug (enables the preview player).",
+  "youtube":  { "live": false, "title": "", "thumbnail": "", "url": "", "embedId": "", "latest": null },
+  "youtube2": { "live": false, "title": "", "thumbnail": "", "url": "", "embedId": "", "latest": null },
+  "twitch":   { "live": false, "title": "", "thumbnail": "", "url": "", "embedId": "", "latest": null },
+  "kick":     { "live": false, "title": "", "thumbnail": "", "url": "", "embedId": "", "latest": null }
+}
