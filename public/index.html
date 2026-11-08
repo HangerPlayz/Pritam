@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>About Pritam – Content Creator, Gamer &amp; Streamer</title>
+  <meta name="description" content="Official website of Pritam: content creator, gamer and streamer. Watch live streams on YouTube, Twitch and Kick, explore his channels, and get in touch for business inquiries.">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="About Pritam">
+  <meta property="og:title" content="About Pritam – Content Creator, Gamer &amp; Streamer">
+  <meta property="og:description" content="Watch Pritam live on YouTube, Twitch and Kick, explore his channels and connect with him.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="preload" as="image" href="assets/img/mono-hero.webp" type="image/webp">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pritam",
+    "jobTitle": "Content Creator, Gamer and Streamer",
+    "url": "./",
+    "sameAs": [
+      "https://m.youtube.com/@pritamisliveff",
+      "https://youtube.com/@proton_live",
+      "https://m.twitch.tv/pritamislive07/home",
+      "https://kick.com/pritamislive07",
+      "https://www.instagram.com/pritamislive_ff",
+      "https://discord.gg/VnGFTUdDHt"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Loader -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="loader__ball"><img src="assets/icons/ball.png" width="96" height="96" alt=""></div>
+    <div class="loader__shadow" aria-hidden="true"></div>
+    <p class="loader__text">Warming up the stream</p>
+    <div class="loader__bar" aria-hidden="true"><span></span></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#home" aria-label="About Pritam – home">
+        <img src="assets/icons/ball.png" width="34" height="34" alt="">
+        <span>ABOUT PRITAM</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#streams">Streams</a>
+        <a href="#channels">Channels</a>
+        <a href="#work">My Work</a>
+        <a href="#social">Social Media</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--primary nav__cta-mobile" href="#social">Connect With Me</a>
+      </nav>
+      <a class="btn btn--primary nav__cta" href="#social">Connect With Me</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home" aria-labelledby="heroTitle">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__beam hero__beam--a"></div>
+        <div class="hero__beam hero__beam--b"></div>
+        <svg class="hero__pitch" viewBox="0 0 800 800" fill="none" stroke="currentColor" stroke-width="3">
+          <circle cx="400" cy="400" r="260"/>
+          <circle cx="400" cy="400" r="10" fill="currentColor"/>
+          <path d="M400 0V800M0 400H800"/>
+          <path d="M120 0v110a60 60 0 0 0 60 60h440a60 60 0 0 0 60-60V0" opacity=".6"/>
+        </svg>
+        <img class="hero__ball" src="assets/icons/ball.png" width="64" height="64" alt="">
+      </div>
+
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <a class="status-pill" id="heroStatus" href="#streams" aria-live="polite">
+            <span class="dot dot--idle"></span><span id="heroStatusText">Checking stream status…</span>
+          </a>
+          <h1 id="heroTitle" class="hero__title">
+            <span class="hero__name">PRITAM</span>
+            <span class="hero__live"><span>IS LIVE</span></span>
+          </h1>
+          <p class="hero__role">Content Creator | Gamer | Streamer</p>
+          <p class="hero__lead">Welcome to my official website! Explore my content, watch my live streams, discover my work, and connect with me across different platforms.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--lg" href="#about">Explore My World</a>
+            <a class="btn btn--ghost btn--lg" id="heroWatch" href="#streams">Watch Live</a>
+          </div>
+        </div>
+        <div class="hero__art">
+          <div class="hero__frame">
+            <img src="assets/img/mono-hero.webp" width="474" height="474" alt="Black-and-white football celebration artwork" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro / highlights -->
+    <section class="intro" aria-label="Introduction">
+      <div class="intro__banner" aria-hidden="true"><img src="assets/img/stars-banner.webp" width="736" height="245" alt="" loading="lazy"></div>
+      <div class="wrap intro__grid">
+        <p class="intro__text">Pritam creates gaming and entertainment content and goes live for his community. Everything he makes, and every place he streams, is linked from this site.</p>
+        <ul class="highlights">
+          <li><strong>3</strong><span>streaming platforms: YouTube, Twitch and Kick</span></li>
+          <li><strong>4</strong><span>channels to follow, including a gaming channel on YouTube</span></li>
+          <li><strong>1</strong><span>Discord server where the community hangs out</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about" aria-labelledby="aboutTitle">
+      <div class="wrap about__grid">
+        <div class="about__art" data-reveal>
+          <figure class="about__main"><img src="assets/img/white-kit.webp" width="735" height="833" alt="Footballer celebrating in a white kit" loading="lazy"></figure>
+          <figure class="about__sub about__sub--a"><img src="assets/img/gold-celebration.webp" width="720" height="720" alt="Footballer celebrating with a hand to the ear" loading="lazy"></figure>
+          <figure class="about__sub about__sub--b"><img src="assets/img/blue-celebration.webp" width="735" height="736" alt="Footballer celebrating in a blue kit" loading="lazy"></figure>
+        </div>
+        <div class="about__copy" data-reveal>
+          <h2 id="aboutTitle" class="h2">WHO IS PRITAM?</h2>
+          <p class="lead">Hey! I'm Pritam, a content creator and streamer passionate about gaming, entertainment, and creating amazing content. I love connecting with my community, sharing memorable moments, and entertaining people through my content and live streams.</p>
+          <ul class="pillars">
+            <li>
+              <h3>Creator</h3>
+              <p>I make content for people who love games, football culture and good entertainment.</p>
+            </li>
+            <li>
+              <h3>Gaming &amp; streaming</h3>
+              <p>Gaming is where I'm most at home, and live streams are where I share it in real time.</p>
+            </li>
+            <li>
+              <h3>Content creation</h3>
+              <p>From short edits to longer videos, I like turning moments into something worth watching.</p>
+            </li>
+            <li>
+              <h3>Community</h3>
+              <p>The audience is the best part. Chat, Discord and comments are how we stay connected.</p>
+            </li>
+            <li>
+              <h3>Personal brand</h3>
+              <p>One name across every platform: Pritam Is Live.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live streams -->
+    <section class="section streams" id="streams" aria-labelledby="streamsTitle">
+      <div class="wrap">
+        <header class="section__head" data-reveal>
+          <h2 id="streamsTitle" class="h2">LIVE STREAMS</h2>
+          <p class="sub">Catch me live across your favourite platforms.</p>
+        </header>
+        <div class="stream-grid" id="streamGrid" aria-busy="true">
+          <!-- Skeletons; replaced by js/live.js -->
+          <article class="scard scard--skeleton" aria-hidden="true"></article>
+          <article class="scard scard--skeleton" aria-hidden="true"></article>
+          <article class="scard scard--skeleton" aria-hidden="true"></article>
+        </div>
+        <p class="stream-meta" id="streamMeta"></p>
+        <p class="visually-hidden" id="streamAnnounce" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- Channels -->
+    <section class="section channels" id="channels" aria-labelledby="channelsTitle">
+      <div class="wrap">
+        <header class="section__head" data-reveal>
+          <h2 id="channelsTitle" class="h2">EXPLORE MY CHANNELS</h2>
+          <p class="sub">Four channels, three platforms. Pick the one that suits how you like to watch.</p>
+        </header>
+        <div class="card-grid card-grid--4">
+          <article class="pcard pcard--youtube" data-reveal>
+            <img class="pcard__icon" src="assets/icons/youtube.png" width="72" height="72" alt="" loading="lazy">
+            <h3>Pritam Is Live FF</h3>
+            <p class="pcard__plat">YouTube</p>
+            <p>My main YouTube channel for videos, highlights and live streams.</p>
+            <a class="btn btn--primary" href="https://m.youtube.com/@pritamisliveff" target="_blank" rel="noopener noreferrer">Visit Channel<span class="visually-hidden"> Pritam Is Live FF on YouTube (opens in a new tab)</span></a>
+          </article>
+          <article class="pcard pcard--youtube" data-reveal>
+            <img class="pcard__icon" src="assets/icons/youtube.png" width="72" height="72" alt="" loading="lazy">
+            <h3>Proton Live</h3>
+            <p class="pcard__plat">YouTube Gaming</p>
+            <p>My gaming channel on YouTube, built around gameplay and live gaming sessions.</p>
+            <a class="btn btn--primary" href="https://youtube.com/@proton_live?si=hixsd2od62dlGP96" target="_blank" rel="noopener noreferrer">Visit Channel<span class="visually-hidden"> Proton Live on YouTube Gaming (opens in a new tab)</span></a>
+          </article>
+          <article class="pcard pcard--twitch" data-reveal>
+            <img class="pcard__icon" src="assets/icons/twitch.png" width="72" height="72" alt="" loading="lazy">
+            <h3>Pritam Is Live</h3>
+            <p class="pcard__plat">Twitch</p>
+            <p>Hang out in the chat and watch me stream live on Twitch.</p>
+            <a class="btn btn--primary" href="https://m.twitch.tv/pritamislive07/home" target="_blank" rel="noopener noreferrer">Visit Channel<span class="visually-hidden"> Pritam Is Live on Twitch (opens in a new tab)</span></a>
+          </article>
+          <article class="pcard pcard--kick" data-reveal>
+            <img class="pcard__icon" src="assets/icons/kick.png" width="72" height="72" alt="" loading="lazy">
+            <h3>Pritam Is Live</h3>
+            <p class="pcard__plat">Kick</p>
+            <p>Catch my streams on Kick and follow along so you know when I go live.</p>
+            <a class="btn btn--primary" href="https://kick.com/pritamislive07" target="_blank" rel="noopener noreferrer">Visit Channel<span class="visually-hidden"> Pritam Is Live on Kick (opens in a new tab)</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- My work -->
+    <section class="section work" id="work" aria-labelledby="workTitle">
+      <div class="wrap">
+        <header class="section__head" data-reveal>
+          <h2 id="workTitle" class="h2">WHAT I DO</h2>
+          <p class="sub">The things I spend my time on, in front of the camera and behind it.</p>
+        </header>
+        <div class="work-grid">
+          <article class="wcard wcard--wide" data-reveal>
+            <img src="assets/img/grey-capcut.webp" width="735" height="731" alt="" loading="lazy">
+            <div class="wcard__body">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3l2-3h6l2 3h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+              <h3>Content Creation</h3>
+              <p>Ideas, edits and posts that capture the moments I love and share them with the community.</p>
+            </div>
+          </article>
+          <article class="wcard" data-reveal>
+            <img src="assets/img/red-celebration.webp" width="736" height="736" alt="" loading="lazy">
+            <div class="wcard__body">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.5"/><path d="M7.5 7.5a6.4 6.4 0 0 0 0 9M16.5 7.5a6.4 6.4 0 0 1 0 9M4.5 4.5a10.6 10.6 0 0 0 0 15M19.5 4.5a10.6 10.6 0 0 1 0 15"/></svg>
+              <h3>Live Streaming</h3>
+              <p>Real-time streams on YouTube, Twitch and Kick, with chat as part of the show.</p>
+            </div>
+          </article>
+          <article class="wcard" data-reveal>
+            <img src="assets/img/gold-celebration.webp" width="720" height="720" alt="" loading="lazy">
+            <div class="wcard__body">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10a4 4 0 0 1 4 4v1a3 3 0 0 1-5.2 2L14.500 14h-5l-1.300 1A3 3 0 0 1 3 13v-1a4 4 0 0 1 4-4z"/><path d="M8 10.500v2M7 11.500h2M16 11h.01M18 12.500h.01"/></svg>
+              <h3>Gaming Content</h3>
+              <p>Gameplay, sessions and highlights from the games I enjoy playing.</p>
+            </div>
+          </article>
+          <article class="wcard wcard--wide" data-reveal>
+            <img src="assets/img/edit-collage.webp" width="736" height="736" alt="" loading="lazy">
+            <div class="wcard__body">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m10 9.500 5 2.500-5 2.500z"/></svg>
+              <h3>Video Projects</h3>
+              <p>Edited videos where visuals, pacing and sound come together.</p>
+            </div>
+          </article>
+          <article class="wcard" data-reveal>
+            <img src="assets/img/stars-banner.webp" width="736" height="245" alt="" loading="lazy">
+            <div class="wcard__body">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.500"/><path d="M3 19c0-3.300 2.700-5.500 6-5.500s6 2.200 6 5.500M15.500 14c3 0 5.500 1.700 5.500 4.500"/></svg>
+              <h3>Community Engagement</h3>
+              <p>Chatting live, hanging out on Discord and keeping the community close.</p>
+            </div>
+          </article>
+          <article class="wcard" data-reveal>
+            <img src="assets/img/trophy-collage.webp" width="736" height="735" alt="" loading="lazy">
+            <div class="wcard__body">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M8 9l-2 2 2 2M16 9l2 2-2 2"/></svg>
+              <h3>Digital Projects</h3>
+              <p>Creative digital work that grows the Pritam Is Live brand across platforms.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="section social" id="social" aria-labelledby="socialTitle">
+      <div class="wrap">
+        <header class="section__head" data-reveal>
+          <h2 id="socialTitle" class="h2">LET'S CONNECT</h2>
+          <p class="sub">Follow, subscribe and join in. Every link below opens the real profile.</p>
+        </header>
+        <div class="card-grid card-grid--3">
+          <article class="scl" data-reveal>
+            <img src="assets/icons/instagram.png" width="64" height="64" alt="" loading="lazy">
+            <div><h3>Instagram</h3><p>Photos, stories and behind-the-scenes updates.</p></div>
+            <a class="btn btn--primary" href="https://www.instagram.com/pritamislive_ff?xtok=M25lcmcwYWY4anQ3" target="_blank" rel="noopener noreferrer">Visit Profile<span class="visually-hidden"> Instagram (opens in a new tab)</span></a>
+          </article>
+          <article class="scl" data-reveal>
+            <img src="assets/icons/discord.png" width="64" height="64" alt="" loading="lazy">
+            <div><h3>Discord</h3><p>Join the community server and chat with everyone.</p></div>
+            <a class="btn btn--primary" href="https://discord.gg/VnGFTUdDHt" target="_blank" rel="noopener noreferrer">Join Server<span class="visually-hidden"> Discord (opens in a new tab)</span></a>
+          </article>
+          <article class="scl" data-reveal>
+            <img src="assets/icons/youtube.png" width="64" height="64" alt="" loading="lazy">
+            <div><h3>YouTube</h3><p>Videos, highlights and streams on Pritam Is Live FF.</p></div>
+            <a class="btn btn--primary" href="https://m.youtube.com/@pritamisliveff" target="_blank" rel="noopener noreferrer">Visit Profile<span class="visually-hidden"> YouTube (opens in a new tab)</span></a>
+          </article>
+          <article class="scl" data-reveal>
+            <img src="assets/icons/youtube.png" width="64" height="64" alt="" loading="lazy">
+            <div><h3>YouTube Gaming</h3><p>Gameplay and live gaming on the Proton Live channel.</p></div>
+            <a class="btn btn--primary" href="https://youtube.com/@proton_live?si=hixsd2od62dlGP96" target="_blank" rel="noopener noreferrer">Visit Profile<span class="visually-hidden"> YouTube Gaming (opens in a new tab)</span></a>
+          </article>
+          <article class="scl" data-reveal>
+            <img src="assets/icons/twitch.png" width="64" height="64" alt="" loading="lazy">
+            <div><h3>Twitch</h3><p>Live streams with a chat that never sleeps.</p></div>
+            <a class="btn btn--primary" href="https://m.twitch.tv/pritamislive07/home" target="_blank" rel="noopener noreferrer">Visit Profile<span class="visually-hidden"> Twitch (opens in a new tab)</span></a>
+          </article>
+          <article class="scl" data-reveal>
+            <img src="assets/icons/kick.png" width="64" height="64" alt="" loading="lazy">
+            <div><h3>Kick</h3><p>More live streams, straight from the Kick channel.</p></div>
+            <a class="btn btn--primary" href="https://kick.com/pritamislive07" target="_blank" rel="noopener noreferrer">Visit Profile<span class="visually-hidden"> Kick (opens in a new tab)</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contactTitle">
+      <div class="wrap">
+        <div class="contact__card" data-reveal>
+          <div class="contact__intro">
+            <h2 id="contactTitle" class="h2">BUSINESS INQUIRIES</h2>
+            <p class="sub">For business inquiries, professional opportunities, collaborations, or other work-related questions, feel free to get in touch.</p>
+            <a class="btn btn--primary btn--lg" href="mailto:Pritambusinessmail11@gmail.com?subject=Business%20inquiry">Contact</a>
+          </div>
+          <ul class="emails">
+            <li>
+              <img src="assets/icons/gmail.png" width="44" height="44" alt="" loading="lazy">
+              <a class="email" href="mailto:Pritambusinessmail11@gmail.com">Pritambusinessmail11@gmail.com</a>
+              <button class="btn btn--ghost btn--sm" type="button" data-copy="Pritambusinessmail11@gmail.com">Copy Email</button>
+            </li>
+            <li>
+              <img src="assets/icons/gmail.png" width="44" height="44" alt="" loading="lazy">
+              <a class="email" href="mailto:mk12appinv@gmail.com">mk12appinv@gmail.com</a>
+              <button class="btn btn--ghost btn--sm" type="button" data-copy="mk12appinv@gmail.com">Copy Email</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="#home" aria-label="About Pritam – back to top">
+          <img src="assets/icons/ball.png" width="34" height="34" alt="" loading="lazy">
+          <span>ABOUT PRITAM</span>
+        </a>
+        <p>Thanks for visiting my official website. Stay connected and never miss the next stream!</p>
+        <ul class="footer__social" aria-label="Social media">
+          <li><a href="https://www.instagram.com/pritamislive_ff?xtok=M25lcmcwYWY4anQ3" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="assets/icons/instagram.png" width="32" height="32" alt="" loading="lazy"></a></li>
+          <li><a href="https://discord.gg/VnGFTUdDHt" target="_blank" rel="noopener noreferrer" aria-label="Discord"><img src="assets/icons/discord.png" width="32" height="32" alt="" loading="lazy"></a></li>
+          <li><a href="https://m.youtube.com/@pritamisliveff" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img src="assets/icons/youtube.png" width="32" height="32" alt="" loading="lazy"></a></li>
+          <li><a href="https://youtube.com/@proton_live?si=hixsd2od62dlGP96" target="_blank" rel="noopener noreferrer" aria-label="YouTube Gaming"><img src="assets/icons/youtube.png" width="32" height="32" alt="" loading="lazy"></a></li>
+          <li><a href="https://m.twitch.tv/pritamislive07/home" target="_blank" rel="noopener noreferrer" aria-label="Twitch"><img src="assets/icons/twitch.png" width="32" height="32" alt="" loading="lazy"></a></li>
+          <li><a href="https://kick.com/pritamislive07" target="_blank" rel="noopener noreferrer" aria-label="Kick"><img src="assets/icons/kick.png" width="32" height="32" alt="" loading="lazy"></a></li>
+        </ul>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <h2 class="footer__h">Quick links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#streams">Streams</a></li>
+          <li><a href="#channels">Channels</a></li>
+          <li><a href="#work">My Work</a></li>
+          <li><a href="#social">Social Media</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer__mail">
+        <h2 class="footer__h">Business</h2>
+        <ul>
+          <li><a href="mailto:Pritambusinessmail11@gmail.com">Pritambusinessmail11@gmail.com</a></li>
+          <li><a href="mailto:mk12appinv@gmail.com">mk12appinv@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy wrap">© 2026 About Pritam. All Rights Reserved.</p>
+  </footer>
+
+  <button class="totop" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Live stream status needs JavaScript. Visit the <a href="#channels">channels</a> directly to see if Pritam is live.</p></noscript>
+  <script src="js/main.js" defer></script>
+  <script src="js/live.js" defer></script>
+</body>
+</html>
